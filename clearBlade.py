@@ -28,5 +28,3 @@ for i in range(20):
 	mqtt.publish("/test", psutil.cpu_percent())
 
 mqtt.disconnect()
-
-
